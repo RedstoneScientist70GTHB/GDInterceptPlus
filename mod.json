@@ -1,0 +1,39 @@
+{
+    "geode": "5.10.1",
+    "gd": {
+        "win": "2.2081",
+        "android": "2.2081",
+        "mac": "2.2081",
+        "ios": "2.2081"
+    },
+    "id": "redstonescientist70gthb.gdintercept-plus",
+    "name": "GDIntercept Plus",
+    "version": "v0.1.0",
+    "developer": "RedstoneScientist70GTHB",
+    "description": "Adds a + button to GDIntercept for drafting and sending your own requests. Also opens from anywhere with a keybind.",
+    "tags": ["online", "utility", "developer"],
+    "settings": {
+        "open_composer": {
+            "type": "keybind",
+            "name": "Open Request Composer",
+            "description": "Opens the New Request window from anywhere (the + button in GDIntercept opens the same window).",
+            "default": "Alt+P"
+        },
+        "timeout": {
+            "type": "int",
+            "name": "Timeout (seconds)",
+            "description": "How long to wait for a response before giving up.",
+            "default": 30,
+            "min": 1,
+            "max": 120
+        },
+        "preview-chars": {
+            "type": "int",
+            "name": "Response Preview Length",
+            "description": "How many characters of the response to show in the window. Use Copy to get the whole response.",
+            "default": 1200,
+            "min": 100,
+            "max": 6000
+        }
+    }
+}
